@@ -1,0 +1,18 @@
+Bu, en sık kullanılan Git komutlarının referans listesidir. (Bu kullanışlı sayfaya yer işareti koymayı düşünebilirsiniz.) Komutlara aşina olmaya çalışın, böylece sonunda hepsini hatırlayabilirsiniz:
+
+Uzak depoyla ilgili komutlar:
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+git pushveya git push origin main(Bu bağlamda her ikisi de aynı hedefi gerçekleştirir)
+İş akışıyla ilgili komutlar:
+git add .
+git commit -m "A message describing what you have done to make this snapshot different"
+Durumu veya günlük geçmişini kontrol etmeye ilişkin komutlar
+git status
+git log
+Temel Git sözdizimi program | action | destination.
+
+Örneğin,
+
+git add .git | add | .noktanın geçerli dizindeki her şeyi temsil ettiği şekilde okunur ;
+git commit -m "message"şöyle okunur git | commit -m | "message"; Ve
+git statusolarak okunur git | status | (no destination).
